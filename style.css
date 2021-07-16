@@ -4,6 +4,8 @@
 /* regular and common styles */
 body{
     font-family: 'Source Sans Pro', sans-serif;
+    background-color: #F3F1FF;
+    margin: 0px auto;
 }
 .container{
     
@@ -49,6 +51,41 @@ body{
     text-decoration: none;
     color: white;
     padding: 0px 20px;
+}
+
+/* ------------Top Players Section--------------- */
+
+.top-players{
+    width: 870px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: white;
+    padding: 30px 30px;
+    border-radius: 10px;
+}
+.top-players h2{
+    color: #5E38FF;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+.top-player{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+.player{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.player img{
+    width: 52px;
+    height: 52px;
+}
+.player h2{
+    font-weight: 400;
+    padding-left: 20px;
+    color : black
 }
 
 
