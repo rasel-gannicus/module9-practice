@@ -79,8 +79,10 @@ body{
         align-items: center;
         padding-inline-start: 0px;
     }
-    
-   /* .right-menu{
-       margin-left: -30px;
-   } */
+}
+
+@media  only screen and (min-width:689px) and (max-width:992px){
+    .menu-bar{
+        width: 100%;
+    }
 }
