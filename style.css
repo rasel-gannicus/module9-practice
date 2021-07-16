@@ -116,10 +116,33 @@ body{
         align-items: center;
         padding-inline-start: 0px;
     }
+    .top-players{
+        width: 70%;
+        margin: auto;
+        margin-top: 30px;
+        background-color: white;
+        padding: 30px 30px;
+        border-radius: 10px;
+    }
+    .top-player{
+        display: flex;
+        flex-direction: column;
+    }
+    .top-players h2{
+        text-align: center;
+    }
+    .player{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media  only screen and (min-width:689px) and (max-width:992px){
     .menu-bar{
         width: 100%;
+    }
+    .top-players{
+        width: 90%;
     }
 }
