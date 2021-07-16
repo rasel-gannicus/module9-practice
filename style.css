@@ -1,5 +1,5 @@
 /* Google font  */
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600;700&display=swap');
 
 /* regular and common styles */
 body{
@@ -66,26 +66,26 @@ body{
 .top-players h2{
     color: #5E38FF;
     padding-bottom: 20px;
-    font-weight: 700;
+    font-weight: 600;
 }
 .top-player{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    align-items: center;
+    row-gap: 30px;
 }
 .player{
     display: flex;
-    justify-content: center;
+    justify-content:stretch;
     align-items: center;
 }
 .player img{
     width: 52px;
     height: 52px;
 }
-.player h2{
-    font-weight: 400;
+.player h3{
+    font-weight: 600;
     padding-left: 20px;
-    color : black
+    font-size: 20px;
 }
 
 
