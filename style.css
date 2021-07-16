@@ -115,6 +115,7 @@ body{
     color: whitesmoke;
     font-weight: 600;
     font-size: 1.2em;
+    padding: 0px;
 }
 
 
@@ -146,11 +147,11 @@ body{
         padding-inline-start: 0px;
     }
     .top-players{
-        width: 70%;
+        width: 85%;
         margin: auto;
         margin-top: 30px;
         background-color: white;
-        padding: 30px 30px;
+        padding: 10px;
         border-radius: 10px;
         box-shadow: 0px 0px 5px 5px#ddd;
     }
@@ -165,6 +166,21 @@ body{
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .top-blog{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 20px;
+        column-gap: 0px;
+        justify-content: space-around;
+    }
+    .blog{
+        font-size: 0.8em;
+        display: flex;
+        align-items: center;
+    }
+    .blog-details{
+        
     }
 }
 
