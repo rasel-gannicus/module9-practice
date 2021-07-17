@@ -7,7 +7,7 @@ body{
     background-color: #F3F1FF;
     margin: 0px auto;
 }
-.container{}
+
 
                     /* --------------menu bar----------------  */
 .full-menu-bar{
@@ -182,9 +182,6 @@ body{
         font-size: 0.8em;
         display: flex;
         align-items: center;
-    }
-    .blog-details{
-        
     }
 }
 
