@@ -61,6 +61,7 @@ body{
     background-color: white;
     padding: 30px 30px;
     border-radius: 10px;
+    margin-bottom: 30px;
 }
 .top-players h2{
     color: #5E38FF;
@@ -122,7 +123,60 @@ body{
     padding: 0px;
 }
 
-
+/*------------- Latest Course section ----------------------*/
+.course-section{
+    width: 870px;
+    background-color: white;
+    margin: auto;
+    padding: 30px 30px;
+    border-radius: 10px;
+}
+.latest-courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    row-gap: 20px;
+}
+.courses{
+    box-shadow: 0px 0px 5px 5px#ddd;
+    padding: 10px;
+    border-radius: 10px;
+}
+.courses h2{
+    font-weight: 600;
+}
+.courses p{
+    color: #ED6C51;
+    font-weight: 600;
+}
+.course img{
+    width: 100%;
+}
+.ratings{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#gold{
+    color: gold;
+}
+#non-gold{
+    color: lightgray;
+}
+#rating-para{
+    color: grey;
+    padding-left: 5px;
+}
+.clock{
+    border-radius: 15px;
+    background-color: rgba(255, 228, 232, 0.931);
+    padding: 5px 10px;
+    color: red;
+}
+.course-title{
+    color: #5E38FF;
+    font-weight: 600;
+}
 
 
 
